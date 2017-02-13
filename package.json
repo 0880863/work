@@ -1,0 +1,16 @@
+{
+  "name": "www.angeliqueenmichaelgaantrouwen.nl",
+  "version": "1.0.0",
+  "description": "Trouw website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "mysql": "^2.13.0",
+    "restify": "^4.3.0"
+  }
+}
