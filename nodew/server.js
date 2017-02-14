@@ -52,7 +52,7 @@ server.get('/huishoudid/:name', function allegasten2(req, res, next) {
     var test = req.params.name;
     console.log(test);
     pool.getConnection(function(err, connection) {
-        connection.query('SELECT huishouden FROM table1 WHERE naam =?',[test], function(err, rows) {
+        connection.query('SELECT huishouden FROM table1 WHERE huishoudnaam =?',[test], function(err, rows) {
             if (err) throw err;
 
             connection.release();
